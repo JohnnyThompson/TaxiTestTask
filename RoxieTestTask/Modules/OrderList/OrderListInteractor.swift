@@ -34,7 +34,10 @@ class OrderListInteractor: OrderListInteractorInputProtocol {
   func fetchOrders() {
     networkManager.getOrdersList { [weak self] result in
       switch result {
-      case .success(let orders):
+      case .success(var orders):
+        orders.sort {
+          $0.orderTime > $1.orderTime
+        }
         self?.presenter.ordersDidReceive(orders)
         self?.orders = orders
       case .failure(let error):

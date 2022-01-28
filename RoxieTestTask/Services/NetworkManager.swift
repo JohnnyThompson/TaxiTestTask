@@ -12,18 +12,12 @@ protocol NetworkManagerProtocol {
 }
 
 class NetworkManager: NetworkManagerProtocol {
-  // MARK: - Properties
-  static let shared = NetworkManager()
-  
   // MARK: - Public functions
   public func getOrdersList(completion: @escaping (Result<Orders, Error>) -> Void) {
     let path = "https://www.roxiemobile.ru/careers/test/orders.json"
     request(path: path) { (result: Result<Orders, Error>) in
       switch result {
-      case .success(var data):
-        data.sort {
-          $0.orderTime > $1.orderTime
-        }
+      case .success(let data):
         completion(.success(data))
       case .failure(let error):
         completion(.failure(error))
