@@ -26,13 +26,13 @@
 		26862DE627996BD0001EEFFA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26862DE527996BD0001EEFFA /* NetworkManager.swift */; };
 		26862DE827996BD9001EEFFA /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26862DE727996BD9001EEFFA /* ImageManager.swift */; };
 		26862DEB27997607001EEFFA /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26862DEA27997607001EEFFA /* NetworkError.swift */; };
-		26862DF4279A8179001EEFFA /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26862DF3279A8179001EEFFA /* UIStackView+.swift */; };
-		26862DF7279A821A001EEFFA /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26862DF6279A821A001EEFFA /* UIView+.swift */; };
-		26862DF9279AB145001EEFFA /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26862DF8279AB145001EEFFA /* UIFont+.swift */; };
+		26862DF4279A8179001EEFFA /* UIStackView+Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = 26862DF3279A8179001EEFFA /* UIStackView+Extension .swift */; };
+		26862DF7279A821A001EEFFA /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26862DF6279A821A001EEFFA /* UIView+Extension.swift */; };
+		26862DF9279AB145001EEFFA /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26862DF8279AB145001EEFFA /* UIFont+Extension.swift */; };
 		26862DFD279AC80F001EEFFA /* LabelWithLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26862DFC279AC80F001EEFFA /* LabelWithLine.swift */; };
-		26862E43279EC15F001EEFFA /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26862E42279EC15F001EEFFA /* UILabel+.swift */; };
-		26862E45279EC1B8001EEFFA /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26862E44279EC1B8001EEFFA /* UIColor+.swift */; };
-		26862E47279EC79F001EEFFA /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26862E46279EC79F001EEFFA /* UIImageView+.swift */; };
+		26862E43279EC15F001EEFFA /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26862E42279EC15F001EEFFA /* UILabel+Extension.swift */; };
+		26862E45279EC1B8001EEFFA /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26862E44279EC1B8001EEFFA /* UIColor+Extension.swift */; };
+		26862E47279EC79F001EEFFA /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26862E46279EC79F001EEFFA /* UIImageView+Extension.swift */; };
 		26B19C0027A05F4B00CFE148 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 26B19BFF27A05F4B00CFE148 /* Kingfisher */; };
 		26B19C0227A0619B00CFE148 /* KingfisherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B19C0127A0619B00CFE148 /* KingfisherError.swift */; };
 /* End PBXBuildFile section */
@@ -59,13 +59,13 @@
 		26862DE527996BD0001EEFFA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		26862DE727996BD9001EEFFA /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		26862DEA27997607001EEFFA /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
-		26862DF3279A8179001EEFFA /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
-		26862DF6279A821A001EEFFA /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
-		26862DF8279AB145001EEFFA /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		26862DF3279A8179001EEFFA /* UIStackView+Extension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension .swift"; sourceTree = "<group>"; };
+		26862DF6279A821A001EEFFA /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		26862DF8279AB145001EEFFA /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		26862DFC279AC80F001EEFFA /* LabelWithLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelWithLine.swift; sourceTree = "<group>"; };
-		26862E42279EC15F001EEFFA /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
-		26862E44279EC1B8001EEFFA /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
-		26862E46279EC79F001EEFFA /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		26862E42279EC15F001EEFFA /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		26862E44279EC1B8001EEFFA /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		26862E46279EC79F001EEFFA /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		26B19C0127A0619B00CFE148 /* KingfisherError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -210,12 +210,12 @@
 		26862DF5279A817F001EEFFA /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				26862DF3279A8179001EEFFA /* UIStackView+.swift */,
-				26862DF6279A821A001EEFFA /* UIView+.swift */,
-				26862DF8279AB145001EEFFA /* UIFont+.swift */,
-				26862E42279EC15F001EEFFA /* UILabel+.swift */,
-				26862E44279EC1B8001EEFFA /* UIColor+.swift */,
-				26862E46279EC79F001EEFFA /* UIImageView+.swift */,
+				26862DF3279A8179001EEFFA /* UIStackView+Extension .swift */,
+				26862DF6279A821A001EEFFA /* UIView+Extension.swift */,
+				26862DF8279AB145001EEFFA /* UIFont+Extension.swift */,
+				26862E42279EC15F001EEFFA /* UILabel+Extension.swift */,
+				26862E44279EC1B8001EEFFA /* UIColor+Extension.swift */,
+				26862E46279EC79F001EEFFA /* UIImageView+Extension.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -297,7 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26862DEB27997607001EEFFA /* NetworkError.swift in Sources */,
-				26862DF9279AB145001EEFFA /* UIFont+.swift in Sources */,
+				26862DF9279AB145001EEFFA /* UIFont+Extension.swift in Sources */,
 				26862DD5279969DC001EEFFA /* OrderListCellViewModel.swift in Sources */,
 				26862DC927996926001EEFFA /* OrderListViewController.swift in Sources */,
 				26862DDD27996A2A001EEFFA /* OrderDetailsInteractor.swift in Sources */,
@@ -307,16 +307,16 @@
 				26B19C0227A0619B00CFE148 /* KingfisherError.swift in Sources */,
 				26862DAE27996642001EEFFA /* AppDelegate.swift in Sources */,
 				26862DB027996642001EEFFA /* SceneDelegate.swift in Sources */,
-				26862E43279EC15F001EEFFA /* UILabel+.swift in Sources */,
-				26862DF7279A821A001EEFFA /* UIView+.swift in Sources */,
+				26862E43279EC15F001EEFFA /* UILabel+Extension.swift in Sources */,
+				26862DF7279A821A001EEFFA /* UIView+Extension.swift in Sources */,
 				26862DD12799699D001EEFFA /* OrderListConfigurator.swift in Sources */,
 				26862DDB27996A23001EEFFA /* OrderDetailsPresenter.swift in Sources */,
 				26862DC227996714001EEFFA /* Order.swift in Sources */,
 				26862DD927996A19001EEFFA /* OrderDetailsViewController.swift in Sources */,
-				26862E47279EC79F001EEFFA /* UIImageView+.swift in Sources */,
-				26862E45279EC1B8001EEFFA /* UIColor+.swift in Sources */,
+				26862E47279EC79F001EEFFA /* UIImageView+Extension.swift in Sources */,
+				26862E45279EC1B8001EEFFA /* UIColor+Extension.swift in Sources */,
 				26862DE827996BD9001EEFFA /* ImageManager.swift in Sources */,
-				26862DF4279A8179001EEFFA /* UIStackView+.swift in Sources */,
+				26862DF4279A8179001EEFFA /* UIStackView+Extension .swift in Sources */,
 				26862DCD2799693E001EEFFA /* OrderListInteractor.swift in Sources */,
 				26862DE627996BD0001EEFFA /* NetworkManager.swift in Sources */,
 				26862DCB27996934001EEFFA /* OrderListPresenter.swift in Sources */,
