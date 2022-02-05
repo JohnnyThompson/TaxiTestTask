@@ -42,7 +42,6 @@ class OrderDetailsViewController: UIViewController {
     setupViews()
     presenter.showDetails()
   }
-  
   override func updateViewConstraints() {
     super.updateViewConstraints()
     view.backgroundColor = .mainWhite()
@@ -59,7 +58,6 @@ class OrderDetailsViewController: UIViewController {
     activityIndicator.startAnimating()
     activityIndicator.hidesWhenStopped = true
   }
-  
   private func setupConstraints() {
     let customView = UIView()
     customView.backgroundColor = .mainGray()
@@ -105,8 +103,7 @@ extension OrderDetailsViewController: OrderDetailsViewInputProtocol {
     vehicleImage.image = UIImage(data: imageData)
     activityIndicator.stopAnimating()
     activityIndicator.isHidden = true
-  }  
-  
+  }    
   func displayVehicleImage(from cacheKey: String) {
     imageManager.loadImageFromCache(with: cacheKey) { [unowned self] image in
       vehicleImage.image = image
@@ -115,23 +112,18 @@ extension OrderDetailsViewController: OrderDetailsViewInputProtocol {
       showAlert(with: error.localizedDescription)
     }
   }
-  
   func displayOrderTime(with title: String) {
     orderTimeLabel.text = title
   }
-  
   func displayModelNameLabel(with title: String) {
     modelNameLabel.text = title
   }
-  
   func displayRegNumber(with title: String) {
     regNumberLabel.text = title
   }
-  
   func displayDriverName(with title: String) {
     driverNameLabel.text = title
   }
-  
   func showAlert(with error: String) {
     let alertController = UIAlertController(title: "Error", message: error, preferredStyle: .alert)
     alertController.addAction(UIAlertAction(title: "OK", style: .default))

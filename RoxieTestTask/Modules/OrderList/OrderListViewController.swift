@@ -60,7 +60,6 @@ extension OrderListViewController: OrderListViewInputProtocol {
     self.section = section
     tableView.reloadData()
   }
-  
   func showAlert(with error: String) {
     let alertController = UIAlertController(title: "Error", message: error, preferredStyle: .alert)
     alertController.addAction(UIAlertAction(title: "OK", style: .default))
@@ -73,7 +72,6 @@ extension OrderListViewController: UITableViewDataSource {
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     self.section.rows.count
   }
-  
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let viewModel = section.rows[indexPath.row]
     tableView.register(OrderListTableViewCell.self, forCellReuseIdentifier: viewModel.cellIdentifier)
@@ -105,15 +103,13 @@ extension OrderListViewController {
       tableView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -10)
     ])
   }
-  
   private func setupViews() {
     tableView.dataSource = self
     tableView.delegate = self
     tableView.showsVerticalScrollIndicator = false
     tableView.separatorStyle = .none
     setupNavigationController()
-  }
-  
+  }  
   private func setupNavigationController() {
     title = "TAXI NAME"
     if #available(iOS 13.0, *) {

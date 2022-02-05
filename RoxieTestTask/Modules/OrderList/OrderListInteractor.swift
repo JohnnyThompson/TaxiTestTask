@@ -45,7 +45,6 @@ class OrderListInteractor: OrderListInteractorInputProtocol {
       }
     }
   }
-  
   func getOrder(at indexPath: IndexPath) {
     let order = orders[indexPath.row]
     presenter.orderDidReceive(order)

@@ -14,11 +14,9 @@ protocol OrderListRouterInputProtocol: AnyObject {
 
 class OrderListRouter: OrderListRouterInputProtocol {
   unowned let viewController: OrderListViewController
-  
   required init(viewController: OrderListViewController) {
     self.viewController = viewController
   }
-  
   func openOrderDetailsViewController(with order: Order) {
     viewController.prepareDetailsVC(with: order)
   }

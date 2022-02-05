@@ -44,7 +44,6 @@ class OrderDetailsInteractor: OrderDetailsInteractorInputProtocol{
       }
     }
   }
-  
   func provideOrderDetails() {
     let formatter = DateFormatter()
     formatter.dateFormat = "d.MM.yy HH:mm"

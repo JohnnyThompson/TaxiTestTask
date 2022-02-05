@@ -16,8 +16,7 @@ class OrderListPresenter: OrderListViewOutputProtocol {
   // MARK: - Initialization
   required init(view: OrderListViewInputProtocol) {
     self.view = view
-  }
-  
+  }  
   func viewDidLoad() {
     interactor.fetchOrders()
   }
@@ -37,11 +36,9 @@ extension OrderListPresenter: OrderListInteractorOutputProtocol {
     }
     view.reloadData(for: section)
   }
-  
   func didReceiveError(with error: String) {
     view.showAlert(with: error)
   }
-  
   func orderDidReceive(_ order: Order) {
     router.openOrderDetailsViewController(with: order)
   }

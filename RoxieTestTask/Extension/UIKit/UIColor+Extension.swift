@@ -13,7 +13,7 @@ extension UIColor {
   }
   
   static func lineColor() -> UIColor {
-    return #colorLiteral(red: 0.7294117647, green: 0.7333333333, blue: 0.7411764706, alpha: 1)
+    UIColor(named: "lineColor") ?? UIColor(.gray)
   }
   
   static func mainGray() -> UIColor {

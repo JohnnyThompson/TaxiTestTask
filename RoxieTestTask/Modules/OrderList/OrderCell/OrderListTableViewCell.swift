@@ -22,8 +22,7 @@ class OrderListTableViewCell: UITableViewCell, OrderListCellModelRepresentable {
   private var endAddressLabel = UILabel(font: .helvetica17())
   private var priceLabel = UILabel(font: .helvetica19Bold(),
                                    lines: 0,
-                                   alignment: .center)
-  
+                                   alignment: .center)  
   var viewModel: CellIdentifiable? {
     didSet {
       setupViews()
@@ -78,7 +77,6 @@ class OrderListTableViewCell: UITableViewCell, OrderListCellModelRepresentable {
                                                         priceLabel],
                                      axis: .horizontal,
                                      spacing: 10)
-    
     addSubview(view)
     view.addSubviews([dateLabel, orderStackView])
     

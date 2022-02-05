@@ -40,8 +40,7 @@ extension OrderDetailsPresenter: OrderDetailsInteractorOutputProtocol {
       return
     }
     view.displayVehicleImage(with: imageData)
-  }
-  
+  }  
   func receiveOrderDetails(with orderData: OrderDetailsData) {
     let orderDate = "Дата заказа: \(orderData.orderTime)"
     let modelName = "Автомобиль: \(orderData.modelName)"
@@ -52,11 +51,9 @@ extension OrderDetailsPresenter: OrderDetailsInteractorOutputProtocol {
     view.displayRegNumber(with: regNumber)
     view.displayDriverName(with: driverName)
   }
-  
   func didReceiveError(with error: String) {
     view.showAlert(with: error)
   }
-  
   func receiveOrderDetailsImageCache(with cacheKey: String) {
     view.displayVehicleImage(from: cacheKey)
   }
